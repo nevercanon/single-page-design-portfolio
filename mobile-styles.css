@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+body {
+    background-color: #fff7f0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+header, footer {
+    padding: 1rem 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    max-width: 13.5%;
+}
+
+.consultation-hf {
+    background-color: #030303;
+    color: #fff7f0;
+    padding: 0.75rem 1.75rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.consultation-hf:hover {
+    background-color: #755cde;
+    cursor: pointer;
+}
+
+.heading-section {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    line-height: 1.25;
+}
+
+.heading-paragraph {
+    color: #7a746e;
+    padding: 0 2rem;
+}
+
+.graphics-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5rem;
+    padding: 0 1rem;
+}
+
+.square {
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.square img {
+   float: right;
+   margin-bottom: 2rem
+}
+
+.grid-title {
+    color: #030303;
+    clear: both;
+    color: #fff7f0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.graphic-design {
+    background-color: #755cde;
+    grid-column: span 2;
+}
+
+.graphic-design img {
+    margin-bottom: 5rem;
+}
+
+.ui-ux {
+    background-color: #f6a560;
+}
+
+.apps {
+    background-color: #f39e9e;
+}
+
+.illustrations {
+    background-color: #eb7565;
+    grid-column: span 2;
+}
+
+.illustrations img {
+    margin-bottom: 1rem;
+}
+
+.photography {
+  background-color: #61c4b7;
+  grid-column: span 2;
+}
+
+.motion-graphics {
+    background-color: #552049;
+    grid-column: span 2;
+}
+
+.amy-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.amy-image {
+    width: 90%;
+    margin-bottom: 2.5rem;
+}
+
+.amy-intro h2 {
+    font-size: 1.6rem;
+    line-height: 1.25;
+    margin-bottom: 1.75rem;
+}
+
+.amy-intro p {
+    color: #7a746e;
+    margin-bottom: 1.5rem;
+}
+
+.consultation {
+    background-color: #eb7565;
+    color: #fff7f0;
+    padding: 0.75rem 1.75rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.consultation:hover {
+    background-color: #f6a560;
+    cursor: pointer;
+}
+
+.amy-intro .consultation {
+    margin-bottom: 5rem;
+}
+
+.slider-section {
+    margin-bottom: 5rem;
+}
+
+.slider-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.works-section {
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    transition: all 0.5s;
+}
+
+.works-section img {
+    max-width: 270px;
+    border-radius: 10px;
+    margin: 0 0.5rem;
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    background-color: #030303;
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    transition: all .2s;
+}
+
+.arrow:hover {
+    background-color: #755cde;
+    cursor: pointer;
+}
+
+.call-booking {
+    background-color: #030303;
+    color: #fff7f0;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2.25rem;
+    margin: 0 1rem;
+}
+
+.call-booking h2 {
+    margin-bottom: 1.5rem;
+}
+
+.call-description {
+    margin-bottom: 1.5rem;
+}
+
+.call-booking .consultation {
+    margin-bottom: 2rem;
+}
+
+footer {
+    padding-bottom: 2rem;
+}

@@ -1,0 +1,98 @@
+@media screen and (min-width: 48em) {
+    html {
+        overflow-wrap: hidden;
+    }
+    body {
+        
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 1.5rem 1.5rem 0;
+    }
+
+    .logo {
+        max-width: 8%;
+    }
+
+    .heading-paragraph {
+        padding: 0 7rem;
+    }
+
+    .graphics-grid {
+        padding: 0 1.5rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .graphic-design {
+        grid-row: span 2;
+    }
+
+    .amy-intro {
+        flex-direction: row;
+        align-items: center;
+        padding: 0 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .amy-image {
+        width: 50%;
+        position: relative;
+        left: -8vw;
+        top: -4vh;
+    }
+
+    .amy-text {
+        text-align: left;
+        padding: 0 1rem;
+    }
+
+    .amy-text h2 {
+        font-size: 2rem;
+    }
+
+    .amy-intro p {
+        font-size: 1.125rem;
+    }
+
+    .consultation {
+        font-size: 1rem;
+        padding: 0.75rem 2.75rem;
+    }
+
+    .slider-section {
+        margin-bottom: 6rem;
+    }
+
+    .slider-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .works-section {
+        max-width: 100%;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    .works-section img {
+        max-width: 540px;
+    }
+
+    .call-booking {
+        margin: 0 1.5rem;
+        padding: 3rem 6rem;
+        margin-bottom: 3rem;
+    }
+
+    .call-booking h2 {
+        font-size: 1.75rem;
+    }
+
+    footer {
+        padding-bottom: 3rem;
+        padding: 1rem 2rem;
+        margin: 0 1.5rem;
+    }
+}
